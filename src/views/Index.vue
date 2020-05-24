@@ -1,6 +1,6 @@
 <template>
   <div style="padding: 10px;">
-    <Parent></Parent>
+    <Parent name="jimmy"></Parent>
     <iframe src="https://cn.vuejs.org/v2/guide/components-slots.html" frameborder="0"></iframe>
   </div>
 </template>
