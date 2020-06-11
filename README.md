@@ -27,3 +27,11 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+```js
+    window.top.postMessage(obj, '*');
+    window.parent.postMessage(obj, '*');
+```
+
+
