@@ -37,6 +37,25 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
   window.addEventListener('message', function(e){
     console.log('接受到的地址信息', e.data)
   }, false)
+  
+/address/libraries/service/api/address/search/getByAddrId?stdAddrId=xxx&aliasAddrId=xxx
+
+返回：
+{
+  "message": "SUCCESS",
+  "code": 200,
+  "data":
+  {
+    "stdAddrId": "10000197634",
+    "aliasAddrId": 66168,
+    "bsType": null,
+    "aliasAddrName": "员村二横路",
+    "stdAddrName": "广州市天河区员村街道员村二横路员村新村",
+    .....
+  }
+}
+  
+  
 ```
 
 
