@@ -5,6 +5,9 @@
     <div><slot v-bind:son="son" name="other">ddd</slot></div>
   </div>
 </template>
+11111111
+2222222222
+333333333
 <script>
   export default{
     props: ['son']
